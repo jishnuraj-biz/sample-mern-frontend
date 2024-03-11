@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "",
+    "author": "Jishnu Raj <jishnuraj.biz@gmail.com>",
+    "license": "ISC",
+    "workspaces": [
+      "project",
+      "components"
+    ],
+    "scripts": {
+      "build": "cd project && pnpm build",
+      "buildX": "cd project && node esbuild.mjs",
+      "dev": "cd project && pnpm dev"
+    }
+  }

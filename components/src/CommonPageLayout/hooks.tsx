@@ -1,0 +1,1 @@
+export { useCommonPageLayoutSettings } from './CommonPageLayoutHooks';
