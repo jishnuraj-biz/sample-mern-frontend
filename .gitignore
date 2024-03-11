@@ -25,5 +25,5 @@ dist-ssr
 *.sw?
 
 # Custom
-/Users/jishnuraj/workspace/samples/mern/frontend/project/cypress/videos/*
-/Users/jishnuraj/workspace/samples/mern/frontend/project/cypress/screenshots/*
+project/cypress/videos/*
+project/cypress/screenshots/*
