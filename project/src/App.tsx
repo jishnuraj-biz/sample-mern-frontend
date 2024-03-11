@@ -1,7 +1,6 @@
-import { Container } from '@mui/material';
-import { CommonPageLayout } from '@my-arc/components';
 import { useCommonPageLayoutSettings } from '@my-arc/components/src/hooks';
 import { useEffect } from 'react';
+import Router from './Router';
 
 const App = () => {
   const { setCommonPageLayoutSettings } = useCommonPageLayoutSettings();
@@ -10,11 +9,7 @@ const App = () => {
     setCommonPageLayoutSettings({ title: 'My App' });
   }, [setCommonPageLayoutSettings]);
 
-  return (
-    <CommonPageLayout title="Home Page">
-      <Container>App</Container>
-    </CommonPageLayout>
-  );
+  return <Router />;
 };
 
 export default App;
