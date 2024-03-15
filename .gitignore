@@ -25,5 +25,6 @@ dist-ssr
 *.sw?
 
 # Custom
+build
 project/cypress/videos/*
 project/cypress/screenshots/*
