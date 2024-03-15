@@ -18,7 +18,10 @@ jobs:
           version: 8
           run_install: false
 
-      - run: npm run build
+      - name: Install dependencies
+        run: pnpm install
+
+      - run: pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
